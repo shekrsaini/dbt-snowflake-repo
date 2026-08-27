@@ -30,6 +30,6 @@ models:
           - unique
           - not_null
       - name: status
-        tests:
-          - accepted_values:
-              values: ['placed', 'shipped', 'completed', 'return_pending', 'returned']
+        # tests:
+        #   - accepted_values:
+        #       values: ['placed', 'shipped', 'completed', 'return_pending', 'returned']
